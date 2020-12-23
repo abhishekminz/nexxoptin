@@ -1,0 +1,104 @@
+body {
+  color: #41495b; }
+
+.nav-logo {
+  width: 270px; }
+  @media (min-width: 1024px) {
+    .nav-logo {
+      opacity: 0; } }
+  @media (max-width: 400px) {
+    .nav-logo {
+      width: 240px; } }
+
+.header-logo {
+  width: 270px; }
+
+@media (max-width: 1024px) {
+  .second-nav {
+    display: none !important; } }
+
+.second-list > li {
+  display: inline-table;
+  padding: 10px;
+  position: relative;
+  font-weight: 700; }
+  .second-list > li:hover .second-list-dropdown {
+    display: flex !important;
+    border: 1px solid #eee; }
+  .second-list > li:last-child {
+    color: #fff; }
+
+.second-list-dropdown {
+  position: absolute;
+  display: none !important;
+  z-index: 1000;
+  background-color: #fff; }
+  .second-list-dropdown li {
+    list-style: none; }
+    .second-list-dropdown li ul {
+      min-width: 100px;
+      margin: 15px; }
+      .second-list-dropdown li ul > li {
+        list-style: none;
+        font-weight: 100;
+        margin-left: -60px;
+        padding: 2px 5px; }
+        .second-list-dropdown li ul > li:hover {
+          background: #333;
+          color: #fff; }
+
+li {
+  cursor: pointer; }
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 0 !important;
+    padding: 10px !important; } }
+
+.btn-primary {
+  background-color: #71b406;
+  border: none; }
+  .btn-primary:hover {
+    background-color: #71b406; }
+
+@media (max-width: 768px) {
+  .row {
+    display: block;
+    text-align: center;
+    width: 100% !important; }
+  .col,
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    max-width: 100% !important; } }
+
+.underlined-text {
+  border-bottom: 2px solid #71b406; }
+
+.text-width {
+  max-width: 60%; }
+
+@media (max-width: 425px) {
+  .text-width {
+    max-width: 100%; } }
+
+@media (max-width: 1024px) {
+  .card {
+    max-width: 440px !important; } }
+
+@media (max-width: 768px) {
+  .card-grid {
+    align-items: center;
+    justify-content: center; }
+  .card {
+    max-width: 320px !important;
+    text-align: center; } }
